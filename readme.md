@@ -14,10 +14,9 @@ For Linux/Mac Shell
 $ python3 -m venv venv
 ```
 
-install numpy and opencv (if already have, Skip)
+install opencv (if already have, Skip)
 ```
 python3 -m pip install opencv-python
-python3 -m pip install numpy
 ```
 
 Go Unto which folder directory you wanted to test,
