@@ -1,13 +1,23 @@
-#To Do List
+```
+For Linux/Mac Shell
+```sh
+$ python3 -m venv venv
+```
 
+install numpy and opencv (if already have, Skip)
+```
+python3 -m pip install opencv-python
+python3 -m pip install numpy
+```
 
-Set up a python environment
-
-python -m venv .venv
-
-Choose which folder to execute the test, On Which Case it's the
-blurring folder on your terminal.
-
+Go Unto which folder directory you wanted to test,
+In my case it's blurring
+```sh
 cd blurring
+python3 image-blurring.py
+```
 
-run the script 
+You can edit the parameters or set an image by editing
+```py
+image_name = 'YOUR_SPECIFIED_IMAGE'
+```
