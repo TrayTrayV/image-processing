@@ -1,3 +1,13 @@
+# TO DO List
+
+## Set up a Python Environment
+
+```sh
+python -m venv .venv
+```
+For Windows 
+```sh
+PS> python -m venv venv
 ```
 For Linux/Mac Shell
 ```sh
